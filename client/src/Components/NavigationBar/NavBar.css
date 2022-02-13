@@ -1,0 +1,139 @@
+#header {
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+ #nav-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ #logo {
+     height: 100%;
+ }
+
+ img {
+     border-radius: 10%;
+     padding: 0px;
+     height: 100%;
+ }
+
+ nav {
+     display: flex;
+     flex-direction: row;
+     
+ }
+
+ ul {
+     display: flex;
+     flex-direction: row;
+     list-style-type: none;
+     align-items:center;
+ }
+
+ li {
+     
+     min-width: 200px;
+ }
+
+ .general-link {
+     text-decoration: none;
+     color: black;
+     background: white;
+     transition: 1s;
+ }
+
+ .general-link:hover {
+     background:lightgrey;
+ }
+
+ #hamburger {
+     display: none;
+    transform: scale(1.5);
+    color: black;
+    
+ }
+
+ #default-nav-lst {
+     display: flex;
+     flex-direction: row;
+ }
+
+ @media only screen and (max-width: 600px) {
+     #hamburger {
+         display: block;
+     }
+     #default-nav-lst{
+         display: none;
+     }
+ }
+
+ #side-bar-closed {
+     display: none;
+ }
+
+ #side-bar-open{
+     display: flex;
+     z-index: 999;
+     position: fixed;
+     opacity: .85;
+     background: darkslategrey;
+     height: 100%;
+     width: 100%;
+     top: 0;
+     left: 0;
+     flex-direction: column;
+     justify-content:space-around;
+     align-items: center;
+ }
+
+ #icon-container{
+     transform: scale(1.5);
+ }
+
+ #x-wrapper {
+     display: flex;
+     flex-direction : row;
+     justify-content: right;
+     height: 15%;
+     width: 100%;
+ }
+
+ #x-container{
+     margin: 2em;
+     transform: scale(3);
+     margin-top: 4em;
+ }
+
+ #x{
+     opacity: 1;
+     color: black;
+ }
+
+ #sideBar-list{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content:space-around;
+     width: 100%;
+     height: 75%;
+    
+ }
+
+ .sideBar-link{
+     color:white;
+     opacity: 1;
+     text-decoration: none;
+     font-size: 2rem;
+ }

@@ -1,0 +1,117 @@
+#parent-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-section-awc {
+    margin: 60px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+}
+
+#mt {
+    margin-top: 15rem;
+}
+
+#mt-60px{
+    margin-top: 60px;
+}
+
+#awc-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-24{
+    font-size: 24px;
+}
+
+.centered-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.link {
+    margin: 10px;
+    text-decoration: none;
+    color: #421a60;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.warning-text {
+    color: rgb(113, 15, 75);
+}
+
+#purple-div{
+    background: linear-gradient(35deg, #AA6FD8, #ABB5D9);
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    width: 100%;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 600px){
+    #purple-div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20rem;
+    }
+    #main-section-awc {
+        height: calc(240vh);
+    }
+}
+
+.white-div {
+    background: white;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.download-button {
+    background: #421a60;
+    color: white;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+    height: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px){
+    .download-button{
+        width: 90%;
+        margin: 10px;
+    }
+}
+
+.download-img {
+    color: white;
+    max-height: 50px;
+    max-width: 50px;
+    object-fit: cover;
+}

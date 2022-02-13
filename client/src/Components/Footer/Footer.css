@@ -1,0 +1,150 @@
+:root {
+    --button-color: #421a60;
+}
+
+#footer {
+    background: linear-gradient(35deg, #AA6FD8, #ABB5D9);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+
+@media only screen and (max-width: 600px){
+    #footer{
+        height: 100vh;
+    }
+
+}
+
+#footer-triple-container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#form-section{
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    #footer-triple-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 30%
+    }
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.no-bullet-points {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+#facebook{
+    max-width: 200px;
+    max-height: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+input {
+    width: 45%;
+    margin: 5px;
+    border-radius: 25px;
+    height: 15%;
+    padding: .2rem
+}
+
+textarea {
+    margin: 5px;
+    width: 100%;
+    border-radius: 15px;
+    height: 50%;;
+    padding: .5rem;
+}
+
+
+
+#submit {
+    width: 20%;
+    margin: 10px;
+    height: 15%;
+    border-radius: 20px;
+    border: 2px solid var(--button-color);
+    color: var(--button-color);
+    
+    font-weight: 400;
+    background: white;
+    transition: 0.5s;
+}
+
+#submit:hover {
+    color: white;
+    background: var(--button-color);
+}
+
+
+
+#footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sr-only{
+    position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+
+#footer-bottom-hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    #footer-bottom-hidden{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+    #footer-bottom{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #footer-bottom-hidden{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 100px;
+    }
+    #footer-bottom{
+        display: none;
+    }
+
+    #footer{
+        height: 150vh;
+    }
+}
+

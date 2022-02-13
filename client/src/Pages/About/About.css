@@ -1,0 +1,132 @@
+#parent-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-section {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 600px){
+    #main-section {
+        height: 150vh;
+    }
+}
+
+#main-info-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header-32{
+    font-size: 32px;
+}
+
+#about-mission {
+    font-size: 20px;
+}
+
+#about-doreen-and-amy{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+
+#directors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.align-p {
+    justify-content: left;
+}
+
+.purple-section {
+    background: linear-gradient(35deg, #AA6FD8, #ABB5D9);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+}
+
+.white-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+
+}
+
+@media only screen and (max-width: 600px){
+    .purple-section {
+        height: calc(150vh - 60px)
+    }
+
+    .white-section {
+        height: calc(150vh - 60px)
+    }
+}
+
+.director-inner-div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.director-contact-white{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background: white;
+    padding: 5px 10px 5px;
+    border-radius: 10px;
+}
+
+.director-contact-purple{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background: linear-gradient(35deg, #AA6FD8, #ABB5D9);
+    padding: 5px 10px 5px;
+    border-radius: 10px;
+}
+
+.director-img {
+    max-width: 400px;
+    max-height: 300px;
+    object-fit: cover;
+    
+}
+
+.link {
+    margin: 10px;
+    text-decoration: none;
+    color: #421a60;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
