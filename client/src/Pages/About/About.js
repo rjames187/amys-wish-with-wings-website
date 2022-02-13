@@ -32,7 +32,7 @@ export default function About() {
                     <section className="purple-section">
                         <h2 className="header-32">Meet our Board of Directors</h2>
                         <div className="director-inner-div">
-                            <img className="director-img" src="directors/doreen.png" alt=""/>
+                            <img className="director-img" src="doreen.png" alt=""/>
                             
                             <div className="align-p">
                                 <h3>Doreen Bruton, Founder &amp; Executive Director</h3>
