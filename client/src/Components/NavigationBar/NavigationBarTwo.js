@@ -24,7 +24,7 @@ export default function NavigationBarTwo() {
                         <img src="purple_logo.jpg" alt="Amy's Wish with Wings Home"/>
                     </Link>
                 </div>
-                <nav >s
+                <nav >
                     <ul id="default-nav-lst">
                         <li><Link className="general-link" to="/about">About Us</Link></li>
                         <li><Link className="general-link" to="/awc">Amy's Wish Club</Link></li>
