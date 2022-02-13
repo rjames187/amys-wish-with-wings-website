@@ -82,7 +82,7 @@ export default function About() {
                     <section className="white-section">
                         
                         <div className="director-inner-div">
-                            <img className="director-img" src="directors/joan.png" alt=""/>
+                            <img className="director-img" src="joan.png" alt=""/>
                             
                             <div className="align-p">
                                 <h3>Dr. Joan P. Kay, MD FAAP</h3>
@@ -100,7 +100,7 @@ export default function About() {
                     <section className="purple-section">
                         
                         <div className="director-inner-div">
-                            <img className="director-img" src="directors/lisa.png" alt=""/>
+                            <img className="director-img" src="lisa.png" alt=""/>
                             
                             <div className="align-p">
                                 <h3>Lisa Rawls, Horse Specialist</h3>
@@ -118,7 +118,7 @@ export default function About() {
                     <section className="white-section">
                         
                         <div className="director-inner-div">
-                            <img className="director-img" src="directors/grady.png" alt=""/>
+                            <img className="director-img" src="grady.png" alt=""/>
                             
                             <div className="align-p">
                                 <h3>Grady Bruton, Animal Science Graduate &amp; Instructor</h3>
@@ -136,7 +136,7 @@ export default function About() {
                     <section className="purple-section">
                         
                         <div className="director-inner-div">
-                            <img className="director-img" src="directors/jaimie.png" alt=""/>
+                            <img className="director-img" src="jaimie.png" alt=""/>
                             
                             <div className="align-p">
                                 <h3>Jaimie Ostrom, RN, MSN, CEN, CNL</h3>
@@ -154,7 +154,7 @@ export default function About() {
                     <section className="white-section">
                         
                         <div className="director-inner-div">
-                            <img className="director-img" src="directors/wende.png" alt=""/>
+                            <img className="director-img" src="wende.png" alt=""/>
                             
                             <div className="align-p">
                                 <h3>Wende Copp, Special Education Teacher &amp; Horse Specialist</h3>
