@@ -48,7 +48,7 @@ export default function About() {
                     <section className="white-section">
                         
                         <div className="director-inner-div">
-                            <img className="director-img" src="directors/bob.png" alt=""/>
+                            <img className="director-img" src="bob.png" alt=""/>
                             
                             <div className="align-p">
                                 <h3>Bob Seebeck</h3>
@@ -65,7 +65,7 @@ export default function About() {
                     <section className="purple-section">
                         
                         <div className="director-inner-div">
-                            <img className="director-img" src="directors/elizabeth.png" alt=""/>
+                            <img className="director-img" src="elizabeth.png" alt=""/>
                             
                             <div className="align-p">
                                 <h3>Elizabeth York, retired RN</h3>
