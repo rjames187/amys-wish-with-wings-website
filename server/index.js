@@ -7,9 +7,12 @@ const nodemailer = require("nodemailer");
 const { google } = require("googleapis");
 const OAuth2 = google.auth.OAuth2;
 
-const PORT = 3001;
+const PORT = process.env.PORT;
 
 const app = express();
+app.use(cors());
+// Have Node serve the files for our built React app
+app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 const createTransporter = async () => {
   const oauth2Client = new OAuth2(
@@ -59,13 +62,53 @@ const verifyEmail = async () => {
 
 const sendEmail = async (emailOptions) => {
   let emailTransporter = await createTransporter();
-  await emailTransporter.sendMail(emailOptions);
+  await emailTransporter.sendMail(emailOptions, (error) => {
+    if (error){
+      console.log("error sending email");
+    }
+    else {
+      console.log("email sent!");
+    }
+  });
 };
 
-sendEmail({
-  subject: "Test",
-  text: "I am sending an email from nodemailer!",
-  to: "rory.james2021@gmail.com",
-  from: process.env.EMAIL
+// sendEmail({
+//   subject: "Test",
+//   text: "I am sending an email from nodemailer!",
+//   to: "rory.james2021@gmail.com",
+//   from: process.env.EMAIL
+// });
+
+app.use(express.json());
+
+app.post('*', (req, res) => {
+  
+  console.log(req.body);
+  name = req.body.name;
+  email = req.body.email;
+  message = req.body.message;
+
+  sendEmail({
+    subject: "Contact Form Submission",
+    text: `Name: ${name}
+           Email: ${email}
+           Message: ${message}`,
+    to: process.env.EMAIL,
+    from: process.env.EMAIL
+  })
+})
+
+// test get 
+app.get("/help", (req, res) => {
+  res.Send("here you go!");
 });
+
+// All other GET requests not handled before will return our React app
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
+});
+
+const server = app.listen(process.env.PORT, () => console.log(`Server running on PORT ${process.env.PORT}`));
+
+
 

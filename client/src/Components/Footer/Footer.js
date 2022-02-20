@@ -1,9 +1,57 @@
-import React from "react";
+import React, { useLayoutEffect, useState } from "react";
 import "./Footer.css"
 import {Link} from "react-router-dom";
 
 
 export default function Footer() {
+   
+    const [status, setStatus] = useState("Submit");
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+    const handleNameChange = (e) => {
+        setName(e.target.value);
+    }
+
+    const handleEmailChange = (e) => {
+        setEmail(e.target.value);
+    }
+
+    const handleMessageChange = (e) => {
+        setMessage(e.target.value);
+    }
+
+
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+        setStatus("Sending...");
+
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+
+        var raw = JSON.stringify({
+        "name": name,
+        "email": email,
+        "message": message
+        });
+
+        var requestOptions = {
+        method: 'POST',
+        headers: myHeaders,
+        body: raw,
+        redirect: 'follow'
+        };
+
+        let response = await fetch("/", requestOptions)
+        .then(response => response.text())
+        .then(result => console.log(result))
+        .catch(error => console.log('error', error));
+        setStatus("Submit");
+        let result = await response.json();
+        console.log(status);
+        alert(result.status);
+    }
 
     return (
         <footer id="footer">
@@ -25,13 +73,13 @@ export default function Footer() {
                 </div>
                 <div id="form-section" className="footer-section">
                     <h3>Contact Us</h3>
-                    <form>
-                        <label className="sr-only" for="contact-name">Name</label>
-                        <input id="contact-name" className="half-input" placeholder=" Name" type="text"></input>
-                        <label className="sr-only" for="contact-email">Email</label>
-                        <input id="contact-email" className="half-input" Placeholder=" Email" type="email"></input>
-                        <textarea placeholder="Message"></textarea>
-                        <button id="submit" type="submit">SUBMIT</button>
+                    <form onSubmit={handleSubmit}>
+                        <label className="sr-only" htmlFor="contact-name">Name</label>
+                        <input onChange={handleNameChange} id="contact-name" className="half-input" placeholder=" Name" type="text"></input>
+                        <label className="sr-only" htmlFor="contact-email">Email</label>
+                        <input onChange={handleEmailChange} id="contact-email" className="half-input" Placeholder=" Email" type="email"></input>
+                        <textarea onChange={handleMessageChange} id="message" placeholder="Message"></textarea>
+                        <button id="submit" type="submit">{status}</button>
                     </form>
                 </div>
                 <div id="footer-bottom-hidden">
