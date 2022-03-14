@@ -31,7 +31,7 @@ export default function Support() {
                         <img className="large-img" src="bethegood.jpg" alt=""/>
                         <div className="horizontal">
                             <a className="button-link side-margin" href="https://www.paypal.com/donate?token=PLCdL6mHfS5fyo7m7gNCAwQcSbX2HNQgm7qZhsUHZ3r8Ld2aqSht91pf-LXWeysF4ngAq59kSkra6bkc">PayPal</a>
-                            <a className="button-link side-margin" href="https://urlgeni.us/venmo/amyswishwithwings">Venmo</a>
+                            <a className="button-link side-margin" href="https://account.venmo.com/u/doreen-bruton">Venmo</a>
                             
                         </div>
                     </div>
@@ -40,7 +40,7 @@ export default function Support() {
                     <div className="section-content">
                         <h2 className="header-32">Sponsor as a Business</h2>
                         <p>Every year Amy's Wish hosts Bobby Fest.</p>
-                        <img className="med-img" src="staff.jpg" alt=""/>
+                        <img className="med-img" src="bobbyfest.jpg" alt=""/>
                         <p>To sponsor our event and get some free tickets, download and fill out the form below. <br/>Email to <a className="link" href="mailto:amyswishwithwings@gmail.com">amyswishwithwings@gmail.com</a></p>
                         <Link className="support-download-btn download-button" to="/files/bobby.pdf" target="_blank">
                                 Bobby Fest Forms

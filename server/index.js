@@ -7,8 +7,8 @@ const nodemailer = require("nodemailer");
 const { google } = require("googleapis");
 const OAuth2 = google.auth.OAuth2;
 
-const PORT = process.env.PORT;
-
+const PORT = process.env.PORT || 3001;
+console.log(process.env.REFRESH_TOKEN)
 const app = express();
 app.use(cors());
 // Have Node serve the files for our built React app
@@ -108,7 +108,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
 });
 
-const server = app.listen(process.env.PORT, () => console.log(`Server running on PORT ${process.env.PORT}`));
+const server = app.listen(PORT, () => console.log(`Server running on PORT ${PORT}`));
 
 
 
