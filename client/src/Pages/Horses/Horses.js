@@ -116,7 +116,7 @@ export default function Horses() {
                             </div>
                         </div>
                         <div className="horse-div">
-                            <img className="horse-img" src="horseImages/jessie.jpg" alt=""/>
+                            <img className="horse-img" src="horseImages/jessie.png" alt=""/>
                             <div className="horse-sub-div">
                                 
                                 <h2>Jessie</h2>
