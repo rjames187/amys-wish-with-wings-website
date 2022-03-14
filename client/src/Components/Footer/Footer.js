@@ -68,7 +68,7 @@ export default function Footer() {
                 </div>
                 <div className="footer-section">
                     <h3>Mailing Address</h3>
-                    <p>Amy's Wish WIth Wings<br/>480 W. Highland St.<br/>Southlake, Tx  76092<br/>817-999-8332</p>
+                    <p>Amy's Wish With Wings<br/>480 W. Highland St.<br/>Southlake, Tx  76092<br/>817-999-8332</p>
                     <a href="https://www.facebook.com/AmysWishWithWings/"><img id="facebook" src="facebook.png" alt="Follow us on Facebook!"/></a>
                 </div>
                 <div id="form-section" className="footer-section">
