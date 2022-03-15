@@ -121,7 +121,6 @@ export default function Horses() {
                                 
                                 <h2>Jessie</h2>
                                 <p>Jessie is 21 years old and came to us from Sky Ranch where she was in their trail program. She has become a favorite for our instructors and loves her job!</p>
-
                             </div>
                         </div>
                         <div className="horse-div">
