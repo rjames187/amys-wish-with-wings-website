@@ -30,7 +30,7 @@ export default function Support() {
                         <h2 className="header-32">Donate as an Individual</h2>
                         <img className="large-img-support" src="bethegood.jpg" alt=""/>
                         <div className="horizontal">
-                            <a className="button-link side-margin" href="https://www.paypal.com/donate?token=PLCdL6mHfS5fyo7m7gNCAwQcSbX2HNQgm7qZhsUHZ3r8Ld2aqSht91pf-LXWeysF4ngAq59kSkra6bkc">PayPal</a>
+                            <a className="button-link side-margin" href="https://www.paypal.com/donate/?hosted_button_id=QH8EZ5BGXS2XS">PayPal</a>
                             <a className="button-link side-margin" href="https://account.venmo.com/u/doreen-bruton">Venmo</a>
                             
                         </div>
