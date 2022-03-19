@@ -17,7 +17,7 @@ export default function Support() {
                 <section id="main-section-support" className="purple-section">
                     <div className="section-content">
                         <h1 className="header-32 text-align-center">Three Ways to Support Amy's Wish</h1>
-                        <img className="large-img" src="wyatt.jpg" alt=""/>
+                        <img className="large-img-support" src="wyatt.jpg" alt=""/>
                         <div id="support-horizontal" className="horizontal">
                             <a className="button-link side-margin" href="#donate-section">Donate</a>
                             <a className="button-link side-margin" href="#sponsor-section">Sponsor</a>
@@ -28,7 +28,7 @@ export default function Support() {
                 <section id="donate-section" className="white-section">
                     <div className="section-content">
                         <h2 className="header-32">Donate as an Individual</h2>
-                        <img className="large-img" src="bethegood.jpg" alt=""/>
+                        <img className="large-img-support" src="bethegood.jpg" alt=""/>
                         <div className="horizontal">
                             <a className="button-link side-margin" href="https://www.paypal.com/donate?token=PLCdL6mHfS5fyo7m7gNCAwQcSbX2HNQgm7qZhsUHZ3r8Ld2aqSht91pf-LXWeysF4ngAq59kSkra6bkc">PayPal</a>
                             <a className="button-link side-margin" href="https://account.venmo.com/u/doreen-bruton">Venmo</a>
