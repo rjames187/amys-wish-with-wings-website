@@ -25,9 +25,9 @@ export default function Home() {
             <p className="intro-para">Our mission is to provide equine assisted services for children with diverse needs. </p>
             <Link id="register-child-link" className="button-link" to="/awc">Register Your Child</Link>
             <div id="support-container">
-              <Link  className="button-link donate-link" to="/support">Sponsor</Link>
-              <Link  className="button-link donate-link" to="/support">Volunteer</Link>
-              <Link  className="button-link donate-link" to="/support">Donate</Link>
+              <a href="/support#sponsor-section" className="button-link donate-link">Sponsor</a>
+              <a href="/support#volunteer-section" className="button-link donate-link">Volunteer</a>
+              <a href="/support#donate-section" className="button-link donate-link">Donate</a>
             </div>
             
             <img id="down-arrow" src="down-arrow.png" alt="scroll down"/>
