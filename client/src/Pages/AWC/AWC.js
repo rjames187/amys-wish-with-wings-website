@@ -37,7 +37,7 @@ export default function AWC() {
                                 Student Release/Waiver Form
                                 <img className="download-img" src="download.png" alt="download"></img>
                             </Link>
-                            <Link className="download-button" to="/files/medical.pdf" target="_blank">
+                            <Link className="download-button" to="/files/new_medical.pdf" target="_blank">
                                 Student Medical Release
                                 <img className="download-img" src="download.png" alt="download"></img>
                             </Link>
