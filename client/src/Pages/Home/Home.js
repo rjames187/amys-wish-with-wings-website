@@ -25,8 +25,8 @@ export default function Home() {
             <p className="intro-para">Our mission is to provide equine assisted services for children with diverse needs. </p>
             <Link id="register-child-link" className="button-link" to="/awc">Register Your Child</Link>
             <div id="support-container">
-              <a href="/support#sponsor-section" className="button-link donate-link">Sponsor</a>
               <a href="/support#volunteer-section" className="button-link donate-link">Volunteer</a>
+              <a href="https://bobbyfest.com/" className="button-link donate-link">Bobbyfest</a>
               <a href="/support#donate-section" className="button-link donate-link">Donate</a>
             </div>
             
@@ -56,7 +56,7 @@ export default function Home() {
         </section>
         <section id="sponsor-section">
           <h2>Sponsors</h2>
-          <Link  className="button-link donate-link" to="/support">Become a Sponsor</Link>
+          <a href="/support#sponsor-section" className="button-link donate-link">Become a Sponsor</a>
           <div id="sponsor-container">
             <a href="https://www.lexarecords.com/"><img className="sponsor"  src="sponsors/lexarecords.png" alt="Lexa Records"/></a>
             <a href="https://www.schneider-wealth.com"><img className="sponsor"  src="sponsors/schneider.png" alt="Schneider Wealth Management"/></a>
