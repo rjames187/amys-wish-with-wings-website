@@ -39,7 +39,7 @@ export default function Support() {
                 <section id="sponsor-section" className="purple-section">
                     <div className="section-content">
                         <h2 className="header-32">Sponsor as a Business</h2>
-                        <p>Every year Amy's Wish hosts Bobby Fest.</p>
+                        <p>Every year Amy's Wish hosts <a href="https://bobbyfest.com/" className="link">Bobby Fest.</a></p>
                         <img className="med-img" src="bobbyfest.jpg" alt=""/>
                         <p>To sponsor our event and get some free tickets, download and fill out the form below. <br/>Email to <a className="link" href="mailto:amyswishwithwings@gmail.com">amyswishwithwings@gmail.com</a></p>
                         <Link className="support-download-btn download-button" to="/files/bobby.pdf" target="_blank">
