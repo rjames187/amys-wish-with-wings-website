@@ -58,6 +58,7 @@ export default function Home() {
           <h2>Sponsors</h2>
           <a href="/support#sponsor-section" className="button-link donate-link">Become a Sponsor</a>
           <div id="sponsor-container">
+            <a href="https://jameslandscaping.com/"><img className="sponsor"  src="sponsors/jlsgcs.png" alt="James Landscaping Inc."/></a>
             <a href="https://www.lexarecords.com/"><img className="sponsor"  src="sponsors/lexarecords.png" alt="Lexa Records"/></a>
             <a href="https://www.schneider-wealth.com"><img className="sponsor"  src="sponsors/schneider.png" alt="Schneider Wealth Management"/></a>
             <a href="https://www.southlakewomensclub.org"><img className="sponsor"  src="sponsors/swc.png" alt="Southlake Women's Club"/></a>
@@ -70,7 +71,7 @@ export default function Home() {
             <a href="https://ffin.com/"><img className="sponsor"  src="sponsors/ffb.jpeg" alt="First Financial Bank"/></a>
             <a href="https://dentistincolleyville.com/"><img className="sponsor"  src="sponsors/cafdnt.gif" alt="Cosmetic and Family Dentistry of North Texas"/></a>
             <a href="https://www.southwestcf.org/"><img className="sponsor"  src="sponsors/swcf.png" alt="Southwest Community Foundation"/></a>
-            <a href="https://jameslandscaping.com/"><img className="sponsor"  src="sponsors/jls.jfif" alt="James Landscaping Inc."/></a>
+            
           </div>
           <h2>Individual Donors</h2>
           <div id="sponsor-container">
