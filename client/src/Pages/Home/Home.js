@@ -56,9 +56,11 @@ export default function Home() {
         </section>
         <section id="sponsor-section">
           <h2>Sponsors</h2>
+          
+          <a id="gra-champ" href="https://jameslandscaping.com/"><img className="sponsor"  src="sponsors/jlsgcs.png" alt="James Landscaping Inc."/></a>
           <a href="/support#sponsor-section" className="button-link donate-link">Become a Sponsor</a>
           <div id="sponsor-container">
-            <a href="https://jameslandscaping.com/"><img className="sponsor"  src="sponsors/jlsgcs.png" alt="James Landscaping Inc."/></a>
+            
             <a href="https://www.lexarecords.com/"><img className="sponsor"  src="sponsors/lexarecords.png" alt="Lexa Records"/></a>
             <a href="https://www.schneider-wealth.com"><img className="sponsor"  src="sponsors/schneider.png" alt="Schneider Wealth Management"/></a>
             <a href="https://www.southlakewomensclub.org"><img className="sponsor"  src="sponsors/swc.png" alt="Southlake Women's Club"/></a>
