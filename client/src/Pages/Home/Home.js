@@ -59,31 +59,26 @@ export default function Home() {
           
           <a id="gra-champ" href="https://jameslandscaping.com/"><img className="sponsor"  src="sponsors/jlsgcs.png" alt="James Landscaping Inc."/></a>
           <a href="/support#sponsor-section" className="button-link donate-link">Become a Sponsor</a>
-          <div id="sponsor-container">
-            
-            <a href="https://www.lexarecords.com/"><img className="sponsor"  src="sponsors/lexarecords.png" alt="Lexa Records"/></a>
-            <a href="https://www.schneider-wealth.com"><img className="sponsor"  src="sponsors/schneider.png" alt="Schneider Wealth Management"/></a>
-            <a href="https://www.southlakewomensclub.org"><img className="sponsor"  src="sponsors/swc.png" alt="Southlake Women's Club"/></a>
-            <a href="http://www.latinofactorcorp.com/business/be-part-of-imm--"><img className="sponsor"  src="sponsors/lf.jpg" alt="Latino Factor"/></a>
-            <a href="https://www.grubbsvolvocars.com/"><img className="sponsor"  src="sponsors/grubbs.png" alt="Grubbs Volvo Grapevine"/></a>
-            <a href="https://thecarboncompanies.com/"><img className="sponsor"  src="sponsors/carbon.jfif" alt="Carbon Companies"/></a>
-            <a href="https://www.faant.com/"><img className="sponsor"  src="sponsors/faaant.png" alt="Foot and Ankle Associates of North Texas"/></a>
-            <a href="https://doddcreative.com/"><img className="sponsor"  src="sponsors/dodd.jpg" alt="Dodd Creative Group"/></a>
-            <a href="https://onealcommercialpainting.com/"><img className="sponsor"  src="sponsors/ocp.jpg" alt="O'Neal Commerical Painting, LLC"/></a>
-            <a href="https://ffin.com/"><img className="sponsor"  src="sponsors/ffb.jpeg" alt="First Financial Bank"/></a>
-            <a href="https://dentistincolleyville.com/"><img className="sponsor"  src="sponsors/cafdnt.gif" alt="Cosmetic and Family Dentistry of North Texas"/></a>
-            <a href="https://www.southwestcf.org/"><img className="sponsor"  src="sponsors/swcf.png" alt="Southwest Community Foundation"/></a>
-            
-          </div>
-          <h2>Individual Donors</h2>
-          <div id="sponsor-container">
-            <div className="sponsor-ind">Mr. and Mrs. Paul Herchman</div>
-            <div className="sponsor-ind">Dr. Joe and Dr. Joan Kay </div>
+          <h3>Reserve Champion</h3>
+          <div class="sponsor-container">
             <div className="sponsor-ind">Gabe and Angela Kwentus and Family</div>
-            <div className="sponsor-ind">Pat and Shirley Olney</div>
-            <div className="sponsor-ind">Shawn and Laura McCaskill &amp; Family</div>
-            <div className="sponsor-ind">Richard and Elizabeth York</div>
-            
+            <div className="sponsor-ind">Herschman Family Foundation</div>
+          </div>
+          <h3>Award of Excellence</h3>
+          <div class="sponsor-container">
+            <div className="sponsor-ind">Grubbs Family</div>
+            <a href="https://precisioneaglepools.com/"><img className="sponsor"  src="sponsors/preceagle.png" alt="Precision Eagle Pools"/></a>
+            <div className="sponsor-ind">Kay Family</div>
+            <a href="http://www.ridewithprideinc.com/"><img className="sponsor"  src="sponsors/rdwp.png" alt="Ride with Pride"/></a>
+          </div>
+          <h3>Blue Ribbon</h3>
+          <div class="sponsor-container">
+            <a href="https://dentistincolleyville.com/"><img className="sponsor"  src="sponsors/cafdnt.gif" alt="Cosmetic and Family Dentistry of North Texas"/></a>
+            <a href="https://tomorrowsdesigns.com/"><img className="sponsor"  src="sponsors/td.png" alt="Tomorrows Designs"/></a>
+            <a href="https://www.outlawequinevet.com/"><img className="sponsor"  src="sponsors/ole.png" alt="Outlaw Equine"/></a>
+            <div className="sponsor-ind">Paul and Susan Straten</div>
+            <a href="https://wyredav.com/"><img className="sponsor"  src="sponsors/wy.png" alt="Wyred AV"/></a>
+            <div className="sponsor-ind">The Bruton Family</div>
           </div>
         </section>
       </main>

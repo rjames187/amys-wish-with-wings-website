@@ -130,7 +130,7 @@ main {
     justify-content: center;
 }
 
-#sponsor-container {
+.sponsor-container {
     display: flex;
     flex-direction: row;
     align-items: center;
