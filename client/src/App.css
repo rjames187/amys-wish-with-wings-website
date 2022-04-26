@@ -222,3 +222,11 @@ h2 {
     transform: scale(1.2);
 }
 
+.sd-50 {
+    transform: scale(.5)
+}
+
+.sd-75 {
+    transform: scale(.75)
+}
+

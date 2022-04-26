@@ -59,26 +59,37 @@ export default function Home() {
           
           <a id="gra-champ" href="https://jameslandscaping.com/"><img className="sponsor"  src="sponsors/jlsgcs.png" alt="James Landscaping Inc."/></a>
           <a href="/support#sponsor-section" className="button-link donate-link">Become a Sponsor</a>
-          <h3>Reserve Champion</h3>
+          <h3>Reserve Champion ($5,000)</h3>
           <div class="sponsor-container">
             <div className="sponsor-ind">Gabe and Angela Kwentus and Family</div>
             <div className="sponsor-ind">Herschman Family Foundation</div>
+            <a href="https://www.schneider-wealth.com/"><img className="sponsor"  src="sponsors/schneider.png" alt="Schneider Wealth Management"/></a>
           </div>
-          <h3>Award of Excellence</h3>
+          <h3>Award of Excellence ($2,500)</h3>
           <div class="sponsor-container">
             <div className="sponsor-ind">Grubbs Family</div>
             <a href="https://precisioneaglepools.com/"><img className="sponsor"  src="sponsors/preceagle.png" alt="Precision Eagle Pools"/></a>
             <div className="sponsor-ind">Kay Family</div>
-            <a href="http://www.ridewithprideinc.com/"><img className="sponsor"  src="sponsors/rdwp.png" alt="Ride with Pride"/></a>
+            <a className="sd-50" href="http://www.ridewithprideinc.com/"><img className="sponsor"  src="sponsors/rdwp.png" alt="Ride with Pride"/></a>
           </div>
-          <h3>Blue Ribbon</h3>
+          <h3>Blue Ribbon ($1,000)</h3>
           <div class="sponsor-container">
             <a href="https://dentistincolleyville.com/"><img className="sponsor"  src="sponsors/cafdnt.gif" alt="Cosmetic and Family Dentistry of North Texas"/></a>
-            <a href="https://tomorrowsdesigns.com/"><img className="sponsor"  src="sponsors/td.png" alt="Tomorrows Designs"/></a>
-            <a href="https://www.outlawequinevet.com/"><img className="sponsor"  src="sponsors/ole.png" alt="Outlaw Equine"/></a>
+            <a className="sd-75" href="https://tomorrowsdesigns.com/"><img className="sponsor"  src="sponsors/td.png" alt="Tomorrows Designs"/></a>
+            <a className="sd-75" href="https://www.outlawequinevet.com/"><img className="sponsor"  src="sponsors/ole.png" alt="Outlaw Equine"/></a>
             <div className="sponsor-ind">Paul and Susan Straten</div>
             <a href="https://wyredav.com/"><img className="sponsor"  src="sponsors/wy.png" alt="Wyred AV"/></a>
             <div className="sponsor-ind">The Bruton Family</div>
+            <div className="sponsor-ind">Al and Phyllis Zito</div>
+            <div className="sponsor-ind">Stefanko Family</div>
+          </div>
+          <h3>Red Ribbon ($500)</h3>
+          <div class="sponsor-container">
+            <div className="sponsor-ind">Brett Zimmerman Investments</div>
+            <div className="sponsor-ind">Pappa's and Company CPA</div>
+            <div className="sponsor-ind">Master Made Feed</div>
+            <div className="sponsor-ind">Laura and Shawn McCaskill</div>
+            <div className="sponsor-ind">First Financial Bank</div>
           </div>
         </section>
       </main>
